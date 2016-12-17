@@ -42,10 +42,10 @@ class SearchPhotos: NSObject {
     
     func search(text: String, page: Int, completionHandler: @escaping (PhotosInfo) -> Void) {
         let urlString = "https://api.flickr.com/services/rest/"
-        let perPageString = "50"
+        let perPage = 50
         
         let params: [String: Any] = ["method": "flickr.photos.search",
-                                     "per_page": perPageString,
+                                     "per_page": perPage,
                                      "text": text,
                                      "page": page,
                                      "api_key": "10ba93bbe49a6480d765ce486673954a"]
