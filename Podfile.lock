@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (4.0.0)
+  - ReachabilitySwift (3)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, tag `4.0.0`)
+  - ReachabilitySwift (~> 3)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+    :tag: 4.0.0
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+    :tag: 4.0.0
+
+SPEC CHECKSUMS:
+  Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+
+PODFILE CHECKSUM: 6cea8919f14455a34d02fb55af8ab81e1cb975e8
+
+COCOAPODS: 1.1.1
